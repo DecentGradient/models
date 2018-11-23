@@ -99,10 +99,5 @@ py_binary(
     name = "monolith",
     srcs = ["monolith.py"],
     srcs_version = "PY2AND3",
-    deps = [
-        ":configuration",
-        ":inference_wrapper",
-        "//im2txt/inference_utils:caption_generator",
-        "//im2txt/inference_utils:vocabulary",
-    ],
+
 )
